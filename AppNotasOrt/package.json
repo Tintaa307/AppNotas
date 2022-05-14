@@ -1,7 +1,10 @@
 {
   "name": "react-todo-app",
   "version": "0.0.0",
+  "homepage": "http://tintaa307.github.io/AppNotasOrt",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
